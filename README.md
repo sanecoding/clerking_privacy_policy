@@ -1,2 +1,2 @@
-# solo_streak-privacy-policy
-Privacy policy for Solo Streak
+# clerking_privacy_policy
+Privacy policy for Clerking
