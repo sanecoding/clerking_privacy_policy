@@ -26,8 +26,8 @@
             margin-top: 2rem;
             font-size: 1.25rem;
         }
-        p {
-            margin-bottom: 1rem;
+        p, li {
+            margin-bottom: 0.75rem;
         }
         ul {
             margin-bottom: 1rem;
@@ -44,58 +44,147 @@
             font-style: italic;
             color: #666;
         }
+        ol {
+            padding-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
     </style>
 </head>
 <body>
 
     <h1>Privacy Policy</h1>
-    <p class="effective-date">Effective Date: 26 July 2026</p>
+    <p class="effective-date">Effective Date: 8 October 2026</p>
 
-    <p>Thank you for using Clerking App.</p>
-    <p>Clerking App is designed to help medical students and healthcare professionals perform structured patient clerking by providing symptom-based history-taking prompts and reference information.</p>
-    <p>Your privacy is important to us.</p>
+    <p>Thank you for using <strong>Clerking</strong> (“Clerking App”, “we”, “us”, or “our”), operated by Ikitai Apps.</p>
+    <p>Clerking App helps medical students and healthcare professionals with structured patient clerking through symptom-based history-taking prompts and reference information. Optional features include Google Sign-In (to sync points), rewarded ads, and in-app purchases.</p>
+    <p>Your privacy is important to us. This Privacy Policy explains what information is collected, how it is used, and how you can delete your account and data.</p>
 
-    <h2>Information We Collect</h2>
-    <p>Clerking App does not collect, store, or transmit any personal information.</p>
-    <p>The app does not require you to create an account or provide personal details.</p>
+    <h2>1. Who this policy covers</h2>
+    <p>This policy applies to the Clerking mobile application on Google Play and related online services we operate for the app (including Firebase backends used for sign-in and cloud sync).</p>
 
-    <h2>Medical Information</h2>
-    <p>Clerking App does not ask you to enter or upload patient-identifiable information.</p>
-    <p>Users are responsible for ensuring that no confidential patient information is entered into the app if future versions introduce note-taking or other data-entry features.</p>
+    <h2>2. Information we collect</h2>
+    <p>You can use core clerking features without creating an account. Some optional features collect data as described below.</p>
 
-    <h2>Internet Connection</h2>
-    <p>Most features of Clerking App work offline.</p>
-    <p>If future versions introduce online features, this Privacy Policy will be updated accordingly.</p>
-
-    <h2>Advertising</h2>
-    <p>If the app displays advertisements, they may be provided by third-party advertising services such as Google AdMob.</p>
-    <p>These services may collect anonymous information, such as:</p>
+    <h3>2.1 Account information (optional Google Sign-In)</h3>
+    <p>If you choose to sign in with Google, we receive information from Google Sign-In / Firebase Authentication, which may include:</p>
     <ul>
-        <li>Device information</li>
-        <li>Advertising identifiers</li>
-        <li>App usage information</li>
-        <li>Crash reports</li>
+        <li>Your Google account email address</li>
+        <li>A unique user identifier (Firebase UID)</li>
+        <li>Basic authentication tokens needed to keep you signed in</li>
     </ul>
-    <p>This information is collected by the advertising provider and is governed by their own privacy policies.</p>
-    <p>For more information, please refer to <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's Privacy Policy</a>.</p>
+    <p>We use this to create and manage your Clerking account and to sync your points wallet across devices.</p>
 
-    <h2>Analytics</h2>
-    <p>Clerking App does not currently use analytics services to track user behaviour.</p>
-    <p>If analytics are added in future updates, this Privacy Policy will be revised.</p>
+    <h3>2.2 App activity and points data</h3>
+    <p>Whether or not you are signed in, the app may store on your device:</p>
+    <ul>
+        <li>Points balance and related wallet state</li>
+        <li>Study-guide unlocks and Consultant Pass status</li>
+        <li>Rewarded-ad watch counts for rate limiting</li>
+        <li>Local preferences (for example theme) and locally saved clerking sheets on your device</li>
+    </ul>
+    <p>If you are signed in, corresponding wallet data may also be stored in our cloud database (Google Cloud Firestore) under your user ID, including timestamps such as last update time.</p>
 
-    <h2>Data Security</h2>
-    <p>Because Clerking App does not collect personal information, we do not store personal data on our servers.</p>
+    <h3>2.3 Purchases (Google Play Billing)</h3>
+    <p>If you buy points packs or other in-app products, payment is processed by <strong>Google Play</strong>. We do not receive or store your full payment card details. We may receive purchase/entitlement information from Google Play (for example product identifiers and purchase status) so we can credit points or unlock features.</p>
 
-    <h2>Children's Privacy</h2>
-    <p>Clerking App is not specifically directed at children under the age of 13.</p>
+    <h3>2.4 Advertising (Google AdMob)</h3>
+    <p>The app may show rewarded advertisements via Google AdMob. After consent where required (UMP), Google’s advertising services may collect or process information such as:</p>
+    <ul>
+        <li>Device information and advertising identifiers</li>
+        <li>Approximate location (derived by Google’s advertising systems; the app does not request precise GPS for its own features)</li>
+        <li>App interaction data related to ad requests and impressions</li>
+        <li>Diagnostic or crash-related information used by Google’s services</li>
+    </ul>
+    <p>This advertising data is processed by Google according to Google’s policies. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google’s Privacy Policy</a> and <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener noreferrer">AdMob help</a>.</p>
 
-    <h2>Changes to This Privacy Policy</h2>
-    <p>We may update this Privacy Policy from time to time.</p>
-    <p>Any changes will be posted on this page with an updated effective date.</p>
+    <h3>2.5 Information we do not ask for</h3>
+    <p>Clerking App does not ask you to enter or upload patient-identifiable clinical records. Do not enter confidential patient information into the app. Users remain responsible for complying with professional and legal confidentiality obligations.</p>
 
-    <h2>Contact</h2>
-    <p>If you have any questions about this Privacy Policy, you may contact:</p>
+    <h2>3. How we use information</h2>
+    <ul>
+        <li><strong>App functionality</strong> — provide clerking tools, points, unlocks, and optional cloud sync</li>
+        <li><strong>Account management</strong> — sign-in, sign-out, and account deletion</li>
+        <li><strong>Fraud / abuse prevention</strong> — for example, maintaining a revoked-email record after account deletion so certain paid entitlements cannot be improperly restored</li>
+        <li><strong>Advertising</strong> — show rewarded ads when you choose to watch them and consent allows</li>
+        <li><strong>Purchases</strong> — deliver in-app products you buy through Google Play</li>
+    </ul>
+    <p>We do not sell your personal information.</p>
+
+    <h2>4. Where data is stored and who processes it</h2>
+    <ul>
+        <li><strong>On your device</strong> — local preferences, local wallet state, and locally saved clerking sheets</li>
+        <li><strong>Google Firebase</strong> — Authentication and Firestore for optional account sync</li>
+        <li><strong>Google Play</strong> — billing and purchase entitlements</li>
+        <li><strong>Google AdMob / UMP</strong> — ads and consent messaging</li>
+    </ul>
+    <p>These providers may process data on servers outside your country. Their processing is governed by their own terms and privacy policies in addition to this policy.</p>
+
+    <h2>5. Account deletion and data deletion</h2>
+    <p>You can delete your Clerking account and associated cloud data from inside the app, or by contacting us.</p>
+
+    <h3>5.1 Delete account and cloud data in the app</h3>
+    <ol>
+        <li>Open <strong>Clerking</strong> and sign in with Google (if you are not already signed in).</li>
+        <li>Open the screen where you manage points / Add Points (from the points badge or equivalent entry in the app).</li>
+        <li>Tap <strong>Delete account &amp; cloud data</strong>.</li>
+        <li>Confirm deletion. Google may ask you to re-authenticate.</li>
+    </ol>
+    <p>When you delete your account in-app, we:</p>
+    <ul>
+        <li>Delete your Firebase Authentication account for Clerking</li>
+        <li>Delete your synced cloud wallet document (points, Consultant Pass flags, study-guide unlocks stored in Firestore)</li>
+        <li>Sign you out on the device and clear cloud sync linkage</li>
+    </ul>
+
+    <h3>5.2 What may remain after account deletion</h3>
+    <ul>
+        <li><strong>Local data on the device</strong> — clerking sheets and some local preferences on that phone/tablet are not automatically wiped by cloud account deletion. You may clear app storage or uninstall the app to remove local data.</li>
+        <li><strong>Revoked-email record</strong> — we may keep your Google email on a revoked list (not your full wallet) so Consultant Pass / related entitlements cannot be restored after deletion. This is for abuse prevention.</li>
+        <li><strong>Google / Play / ads records</strong> — Google may retain purchase, authentication, or advertising records under their own policies. Manage those via your Google Account and Play settings where available.</li>
+    </ul>
+
+    <h3>5.3 Request deletion by email</h3>
+    <p>If you cannot use the in-app flow, email <a href="mailto:ikitaiapps@gmail.com">ikitaiapps@gmail.com</a> from the Google account email you used to sign in, with subject line <strong>“Clerking account deletion”</strong>. Include the email address of the account to delete. We will delete (or arrange deletion of) your Clerking Authentication account and associated Firestore wallet data, subject to the limited retention described above, usually within 30 days.</p>
+
+    <h3>5.4 Sign-out without deleting</h3>
+    <p>You may sign out at any time without deleting your account. Cloud data remains until you delete the account or request deletion.</p>
+
+    <h2>6. Data retention</h2>
+    <ul>
+        <li>Local device data — until you clear app data or uninstall</li>
+        <li>Cloud account / wallet data — until you delete your account or request deletion</li>
+        <li>Revoked-email entries — retained as needed for abuse prevention</li>
+        <li>Advertising and purchase records held by Google — per Google’s retention practices</li>
+    </ul>
+
+    <h2>7. Security</h2>
+    <p>We use reputable providers (including Google Firebase and Google Play) and transmit data over encrypted connections (HTTPS) where applicable. No method of transmission or storage is 100% secure; please protect your device and Google Account.</p>
+
+    <h2>8. Children’s privacy</h2>
+    <p>Clerking App is intended for medical students and healthcare professionals. It is not directed at children under 13 (or the equivalent minimum age in your country), and we do not knowingly collect personal information from children. If you believe a child has provided personal information, contact us and we will take appropriate steps to delete it.</p>
+
+    <h2>9. Your choices and rights</h2>
+    <ul>
+        <li>Use the app without signing in</li>
+        <li>Decline or limit ads via consent prompts / device ad settings where available</li>
+        <li>Skip in-app purchases</li>
+        <li>Sign out, or delete your account and cloud data as described above</li>
+    </ul>
+    <p>Depending on your location, you may have rights to access, correct, or delete personal data, or to object to certain processing. Contact us to exercise these rights. You may also have rights regarding data held by Google under Google’s policies.</p>
+
+    <h2>10. Third-party links and services</h2>
+    <p>The app relies on third-party services (Google Sign-In, Firebase, Google Play Billing, AdMob). Those services are governed by their own privacy policies. We encourage you to review them.</p>
+
+    <h2>11. International users</h2>
+    <p>If you use the app from outside the country where our providers’ servers are located, your information may be transferred to and processed in other countries that may have different data-protection laws.</p>
+
+    <h2>12. Changes to this Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated effective date. Continued use of the app after changes means you accept the updated policy.</p>
+
+    <h2>13. Contact</h2>
+    <p>Questions about this Privacy Policy, privacy requests, or account/data deletion:</p>
     <p>Email: <a href="mailto:ikitaiapps@gmail.com">ikitaiapps@gmail.com</a></p>
+    <p>Developer: Ikitai Apps</p>
 
 </body>
 </html>
